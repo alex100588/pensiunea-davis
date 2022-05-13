@@ -11,7 +11,8 @@
 <body>
 
     <!-- logo -->
-    <div class="navbar bg-danger p-0"><div class="container-xxl ">
+    <div class="container-fluid bg-danger p-0">
+        <div class="container-xxl ">
             <a href="#" class="navbar-brand p-0" >
                 <img src="images/thumb_7523.png.webp" alt="">
             </a>
@@ -20,14 +21,14 @@
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-light bg-dark mt-2 p-0">
-        
+        <div class="container">
         <!-- toggle menu -->
-        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
         <!-- Menu -->
-        <div class="container-xxl">
+        
           <div class="collapse navbar-collapse" id="main-nav">
             <ul class="navbar-nav bg-white ">
                 <li class="nav-item">
@@ -106,40 +107,54 @@
         
       </div>
 
-      <!-- Cards -->
+       <!-- Cards -->
+       <div class="container-lg my-2">
+        <div class="row ">
+          <!-- card 1 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 p-2">
+                <div class="bg-secondary">
+                      <h4 class="text-danger p-3">Pensiune</h1>
+                      <p class="ps-3 pb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium repellat officia inventore veniam quibusdam, nesciunt esse eius.</p>
+                      <img src="images/istockphoto-175216036-170667a.jpg"  alt="img"> 
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 p-2">
+                <div class="bg-danger">
+                      <h4 class="text-secondary p-3">Pensiune</h1>
+                      <p class="ps-3 pb-5 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus mollitia assumenda esse inventore minus quaerat earum facilis?</p>
+                      <img src="images/istockphoto-175216036-170667a.jpg"  alt="img"> 
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 p-2">
+                <div class="bg-secondary">
+                      <h4 class="text-danger p-3">Pensiune</h1>
+                      <p class="ps-3 pb-5 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor magni quibusdam corrupti nostrum distinctio. Voluptates, enim alias?</p>
+                      <img src="images/istockphoto-175216036-170667a.jpg"  alt="img"> 
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 pe-1 p-2">
+                <div class="bg-danger">
+                      <h4 class="text-secondary p-3">Pensiune</h1>
+                      <p class="ps-3 pb-5 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, quis rerum necessitatibus eligendi repellendus laborum recusandae ducimus?</p>
+                      <img src="images/istockphoto-175216036-170667a.jpg"  alt="img"> 
+                </div>
+            </div>
 
-      <div class="container d-flex flex-row ">
-        <div class="h-25 w-25 d-inline-block bg-secondary me-3">
-            <h4 class="text-danger p-3">Pensiune</h1>
-            <p class="ps-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus? Obcaecati, error?</p>
-            <img src="images/istockphoto-175216036-170667a.jpg"  alt="img"> 
         </div>
-        <div class="h-25 w-25 bg-danger me-3" >
-            <h4 class="text-secondary p-3">Restaurant</h1>
-            <p class="ps-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus? Obcaecati, error?</p>
-            <img src="images/istockphoto-175216036-170667a.jpg"  alt="img"> 
-        </div>
-        <div class="h-25 w-25 bg-secondary me-3">
-            <h4 class="text-danger p-3">Pizza</h1>
-            <p class="ps-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus? Obcaecati, error?</p>
-            <img src="images/istockphoto-175216036-170667a.jpg"  alt="img"> 
-        </div>
-        <div class="h-25 w-25 bg-danger">
-            <h4 class="text-secondary p-3">Contact</h1>
-            <p class="ps-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus? Obcaecati, error?</p>
-            <img src="images/istockphoto-175216036-170667a.jpg"  alt="img"> 
-        </div>
-
     </div>
       
           
-      </div>
+    </div>
 
       <!-- Footer -->
+
       <div class="container-fluid bg-dark mt-4 p-2">
           <div class="container-xl">
               <div class="d-flex justify-content-between">
-                <div class="d-flex flex-row bd-highlight">
+                <div class="d-flex flex-row bg-highlight">
                     <div class="p-2 text-light fw-light me-3">Acasa</div>
                     <div class="p-2 text-light fw-light me-3">Pensiune</div>
                     <div class="p-2 text-light fw-light me-3">Restaurant</div>
